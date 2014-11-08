@@ -13,14 +13,21 @@ app.post('/nextPage', function(req, res) {
 	console.log('Location: ' + req.body.location);
 })
 
-app.get('/me', function(req, res){
-	res.send('@nikhkulkarni');
-});
+// app.get('/list', function(req, res) {
+// 	var location = req.body.loc;
+// 	var cuisine = req.body.cuisine;
+// 	var restriction = req.body.restriction;
+// 	console.log(location + cuisine + restriction);
+// 	res.render('list');
+// })
 
-app.get('/who/:name?', function(req, res) {
-	var name = req.params.name;
-	res.send(name);
-});
+app.post('/list', function(req, res) {
+	var location = req.body.loc;
+	var cuisine = req.body.cuisine;
+	var restriction = req.body.restriction;
+	console.log(location + cuisine + restriction);
+	res.render('list');
+})
 
 app.get('/who/:name?/:title?', function(req, res) {
 	var name = req.params.name;
