@@ -9,7 +9,7 @@ app.get('/', function(req, res) {
 	res.render('default');
 });
 
-app.get('/nextPage', function(req, res) {
+app.post('/nextPage', function(req, res) {
 	console.log('Location: ' + req.body.location);
 })
 

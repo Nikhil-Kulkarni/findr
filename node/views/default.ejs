@@ -18,8 +18,10 @@
   <body>
     <img src="font.png" class='custom'>
     <form class="form-wrapper cf" action="/nextPage" method="post">
-      <input type="text" id = "location" placeholder="Your Location..." required>
-      <button type="submit">Next</button>
+      <input type="text" name = "location" placeholder="Your Location..." required>
+      <input type="text" name = "cuisine" placeholder="Cuisine-Type..." required>
+      <input type="text" name = "restrictions" placeholder="Dietary-Restrictions..." required>
+      <button type="submit">Submit</button>
     </form>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
