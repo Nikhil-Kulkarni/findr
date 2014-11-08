@@ -1,0 +1,4 @@
+CafeSunflowerBuckhead.txt vegetarian
+Raja.txt gluten-free
+TheGeneralMuir.txt peanut-free
+Leawood.txt vegetarian
