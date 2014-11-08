@@ -5,15 +5,12 @@ var name = "asdf";
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/views/styles'));
 
-app.get('/', function(req, res){
-	res.render('default', {
-		title: 'Home',
-		users:['Nikhil', 'app', 'random']
-		});
+app.get('/', function(req, res) {
+	res.render('default');
 });
 
-app.post('/myaction', function(req, res) {
-	res.send('You sent the location: ' + req.body.location);
+app.get('/nextPage', function(req, res) {
+	console.log('Location: ' + req.body.location);
 })
 
 app.get('/me', function(req, res){
@@ -35,6 +32,6 @@ app.get('*', function(req, res) {
 	res.send('bad route');
 });
 
-var server = app.listen(3000, function() {
-	console.log('Listening on port 3000');
+var server = app.listen(5000, function() {
+	console.log('Listening on port 5000');
 })

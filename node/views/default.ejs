@@ -68,7 +68,7 @@
 .form-wrapper {
     width: 450px;
     padding: 15px;
-    margin: 150px auto 50px auto;
+    margin: 80px auto 50px auto;
     background: #444;
     background: rgba(0,0,0,.2);
     border-radius: 10px;
@@ -163,16 +163,22 @@
     border: 0;
     padding: 0;
 } 
+
+.custom {
+  font-size: 48px;
+  text-align: center;
+  margin-top: 200px;
+  margin-left: 30%;
+  background-image: url('font.png');
+}
     </style>
   	
  
   </head>
   <body>
-    <div class="container">
-      <p class="font-effect-3d-float">Restaurant</p>
-    </div>
+    <img src="font.png" class='custom'>
     <form class="form-wrapper cf" action="/nextPage" method="post">
-      <input type="text" placeholder="Your Location..." required id="location">
+      <input type="text" id = "location" placeholder="Your Location..." required>
       <button type="submit">Next</button>
     </form>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
