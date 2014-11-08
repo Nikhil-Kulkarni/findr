@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+var name = "asdf";
 
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/views/styles'));
@@ -11,7 +12,9 @@ app.get('/', function(req, res){
 		});
 });
 
-
+app.post('/myaction', function(req, res) {
+	res.send('You sent the location: ' + req.body.location);
+})
 
 app.get('/me', function(req, res){
 	res.send('@nikhkulkarni');
