@@ -13,7 +13,7 @@ SkLearn
 
 How to Use
 =====
-Download zip and navigate to node folder in terminal or command prompt. Run "node app.js" and open http://localhost:5000 in a browser
+Download zip and navigate to node folder in terminal or command prompt. Run "node app.js" and open <a href="http://localhost:5000">http://localhost:5000</a> in a browser
 
 Creators
 =====
