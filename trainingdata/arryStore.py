@@ -3,6 +3,7 @@ import numpy as np
 import numpy
 from sklearn import svm
 from sklearn import datasets
+import zmq
 
 def main():
   file_list = []
@@ -11,8 +12,8 @@ def main():
   while True: #while loop that runs until the user puts in a file name...
     #or types in quit
     #asks the user for a file name, or gives them an option to quit
-    file_name = "C:\HackNash\Ecco.txt"
-    file_name1 = "C:\HackNash\Leawood.txt"
+    file_name = "C:\HackNash\Tomo.txt"
+    file_name1 = "C:\HackNash\Ecco.txt"
     file_name_Test = "C:\HackNash\Raja.txt"
     if file_name == "quit":
             sys.exit(0) #quits the program
@@ -61,7 +62,8 @@ def main():
   print file_list_hash1
   print file_list_testhash
   x = [np.array(file_list_hash), np.array(file_list_hash1)]
-  y = [hash("organic"), hash("vegan")]
+  #y = [[hash("diabetic")],[hash("vegans")]]
+  y = [1,2]
   iris = datasets.load_iris()
   #x = np.array([[-1, -1], [-2, -1], [1, 1], [2, 1]])
   #y = np.array([1, 5, 2, 6])
@@ -71,6 +73,18 @@ def main():
   print(clf.predict(np.array(file_list_testhash)))
   #labels = [y[i] for i in clf.predict(x)]
   #clf.fit(x, range(len(y)))
+  context = zmq.Context()
+  subscriber = context.socket(zmq.SUB)
+  subscriber.bind("tcp://127.0.0.1:5000")
+  subscriber.setsockopt(zmq.SUBSCRIBE, '')
+  while True:
+      print subscriber.recv()
+  server = context.socket(zmq.REP)
+  server.connect("tcp://127.0.0.1:5000")
+  while True:
+      message = server.recv()
+      print "Sending", message, "World\n"
+      server.send("Hello World")
   
 if __name__ == '__main__':
     main()
