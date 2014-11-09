@@ -43,6 +43,8 @@ test_menus.append(test_menu2)
 predicted_categories = text_clf.predict(test_menus)
 print(predicted_categories)
 '''
+def __init__(location, cuisine, restriction):
+    getInfo(location, cuisine, restriction)
 
 #Takes in customer information and predicts which restaurant he should go to
 recommended_restaurants = []
