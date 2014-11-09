@@ -1,12 +1,13 @@
+﻿http://grandraja.com/
 Appetizers
 Enjoy an appetizer or soup before your main meal.
 
 PAPADAM (2 per serving) / 2.50
 MULLIGATAWNY SOUP / 3.50
-SALAD (Lettuce, Tomato, Cucumber, Indian Spice) / 3.50
+SALAD (Lettuce Tomato Cucumber Indian Spice) / 3.50
 SAMOSA (Vegetable Turnover 2 pieces) / 4.95
 ONION BHAJI (Onion Fritters 4 pieces) / 4.95
-MIXED VEGETABLES ( 2 Samosas, 2 Onion Bhaji, 2 Eggplant, 2 Potato Bhaji) / 7.50
+MIXED VEGETABLES ( 2 Samosas 2 Onion Bhaji 2 Eggplant 2 Potato Bhaji) / 7.50
 CHICKEN TIKKA / 7.95
 BOTI KABOB / 8.25
 SHRIMP (w/Poori) / 6.50
@@ -32,7 +33,7 @@ CHANA SAAG / 10.25
 Tandoori
 TANDOORI CUISINE
 What is Tandoori?
-Tandoori food preparation takes its name from the Tandoor-an oven, made with Indian clay. At about 30 feet deep, and a diameter of 40″ narrowing to about 18″ at the top, it is used for baking bread and roasting lamb, chciken or shrimp. This process seals in the flavor of the meat, preserving the unmistakable spicy taste which comes from a 24-hour marinating process.
+Tandoori food preparation takes its name from the Tandoor-an oven made with Indian clay. At about 30 feet deep and a diameter of 40″ narrowing to about 18″ at the top it is used for baking bread and roasting lamb chciken or shrimp. This process seals in the flavor of the meat preserving the unmistakable spicy taste which comes from a 24-hour marinating process.
 
 
 CHICKEN TANDOORI / Half – 10.75  Full – 20.95
@@ -73,7 +74,7 @@ RAJA’S KULFI  / 3.75
 (Mango or Pistassau)
 
 GOLAB JAMUN/ 3.25
-(Homemade cottage cheese, fried in shotening and dipped in honey)
+(Homemade cottage cheese fried in shotening and dipped in honey)
 
 KHEER / 3.25
 (Traditional Indian rice pudding)

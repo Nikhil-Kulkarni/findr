@@ -25,6 +25,7 @@ def main():
                 break
             except: #prints out if file name doesn't exist
                     print "No, no, file no here."
+
   for eachLine in fin: #strips out the new lines from the file
         file_list.append(eachLine.strip())
   for eachLine in fin1: #strips out the new lines from the file

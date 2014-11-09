@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 5 & 10.txt	Italian
 Abattoir.txt	Italian,Mediterranean
 Aria.txt	Vegetarian,Organic,low cholesterol
@@ -17,3 +18,8 @@ Ecco.txt	Vegetarian,Italian
 Tomo.txt	Asian
 Queen of Sheba.txt	African
 Zoe's Kitchen.txt	Vegan,Vegetarian,diabetic,no peanut,low cholesterol,Mediterranean
+=======
+Cafe Sunflower Buckhead.txt	vegan
+Raja.txt	gluten-free,Indian,vegetarian
+The General Muir.txt	peanut-free,Chinese
+>>>>>>> c88e1c6bf3c17d572eb33b0ea5c1395d5e813c5f
