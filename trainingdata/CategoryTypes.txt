@@ -10,3 +10,4 @@ peanut-free
 diabetic
 organic
 low cholesterol
+egg-free

@@ -1,4 +1,3 @@
 Cafe Sunflower Buckhead.txt	vegan
 Raja.txt	gluten-free,Indian,vegetarian
 The General Muir.txt	peanut-free,Chinese
-Leawood.txt	African,Italian

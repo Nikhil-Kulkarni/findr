@@ -16,24 +16,27 @@ def get_restaurants():
             line = eachline.split("\t")
             restaurant_file = line[0]
             restaurant_name = restaurant_file[:-4]
-            #print(restaurant_name)
-            categories = line[1].split(',')
+            print(restaurant_name)
+            categories = line[1][:-1].split(',')
+            print(categories)
 
             category_indices = []
             for category in categories:
                 category_indices.append(get_category_index(category))
 
             categories = category_indices
-            #print(categories)
+            print(categories)
             
+            link = ''
             with open('C:/Users/IMSA Student/Desktop/findr/trainingdata/'+restaurant_file, 'r') as sub_file:
                 menu_file_lines = sub_file.readlines()
                 link = menu_file_lines[0]
+                print(link)
                 
-                menu_text = sub_file.read().replace('\n',' ')
                 
-                #for word in menu_text:
-                #    word = hash(word)
+            with open('C:/Users/IMSA Student/Desktop/findr/trainingdata/'+restaurant_file, 'r') as sub_file2:
+                menu_text = sub_file2.read().replace('\n',' ')
+                
                 #print(menu_text)
                 restaurants.append((restaurant_name, menu_text, categories, link))
     return restaurants
@@ -54,3 +57,6 @@ def get_category_from_index(index):
     with open(category_types_database, 'r') as filestream:
         lines = filestream.readlines() 
     return lines[index]
+
+restaurants = get_restaurants()
+
