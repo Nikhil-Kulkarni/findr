@@ -1,13 +1,14 @@
-Indian
+vegetarian
 Chinese
 Italian
 Mexican
 Medeterranian
 African
 vegan
-vegetarian
+Indian
 peanut-free
 diabetic
 organic
 low cholesterol
 egg-free
+gluten-free

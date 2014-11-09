@@ -16,22 +16,22 @@ def get_restaurants():
             line = eachline.split("\t")
             restaurant_file = line[0]
             restaurant_name = restaurant_file[:-4]
-            print(restaurant_name)
+            #print(restaurant_name)
             categories = line[1][:-1].split(',')
-            print(categories)
+            #print(categories)
 
             category_indices = []
             for category in categories:
                 category_indices.append(get_category_index(category))
 
             categories = category_indices
-            print(categories)
+            #print(categories)
             
             link = ''
             with open('C:/Users/IMSA Student/Desktop/findr/trainingdata/'+restaurant_file, 'r') as sub_file:
                 menu_file_lines = sub_file.readlines()
                 link = menu_file_lines[0]
-                print(link)
+                #print(link)
                 
                 
             with open('C:/Users/IMSA Student/Desktop/findr/trainingdata/'+restaurant_file, 'r') as sub_file2:

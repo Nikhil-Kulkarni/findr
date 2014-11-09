@@ -20,9 +20,15 @@ text_clf = Pipeline([('vect', CountVectorizer(stop_words='english')),
                      ('clf', OneVsRestClassifier(MultinomialNB()))])
 
 #make sure each category shows up at least once in training set
-restaurant_categories = MultiLabelBinarizer().fit_transform(restaurant_categories)
+restaurant_categories2 = MultiLabelBinarizer().fit_transform(restaurant_categories)
 
-text_clf = text_clf.fit(restaurant_menus, restaurant_categories)
+text_clf = text_clf.fit(restaurant_menus, restaurant_categories2)
+
+for index in range(0,len(restaurant_names)-1):
+    print(restaurant_names[index])
+    print(restaurant_categories[index])
+    print(restaurant_categories2[index])
+    
 
 import numpy as np
 

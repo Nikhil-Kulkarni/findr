@@ -1,9 +1,9 @@
-def cross_validation(clf, X, Y, k):
+def cross_validation(clf, X, Y, num_folds):
     """
     :param clf: a classifier to use for training (eg. SVM / MultinomialNaiveBayes ...)
     :param X: vectors
     :param Y: labels
-    :param k: number of folds
+    :param num_folds: number of folds
     :return: accuracy as the average of k-fold cross-validation.
     """
     X = X.todense()
