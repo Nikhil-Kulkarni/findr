@@ -1,3 +1,30 @@
+<<<<<<< HEAD
+5 & 10.txt	Italian
+Abattoir.txt	Italian,Mediterranean
+Aria.txt	Vegetarian,Organic,low cholesterol
+Bocca Lupo.txt	Italian
+Cardamom Hill.txt	Vegetarian,no peanut,Indian
+Desta Ethiopian Kitchen.txt	diabetic,no peanut,African
+Empire State South.txt	no peanut,Italian,
+Miller Union.txt	Italian
+One Eared Stag.txt	no peanut,Mediterranean
+Restaurant Eugene.txt	no peanut,low cholesterol,Mediterranean
+Rumi's Kitchen.txt	Vegan,Vegetarian,diabetic,low cholesterol,Mediterranean
+The Busy Bee Cafe.txt	diabetic,no peanut
+The General Muir.txt	Vegetarian,diabetic,organic,low cholesterol,African
+The Optimist Restaurant.txt	no peanut,Mexican
+Raja.txt	Vegan,Vegetarian,Indian
+Ecco.txt	Vegetarian,Italian
+Tomo.txt	Asian
+Queen of Sheba.txt	African
+Zoe's Kitchen.txt	Vegan,Vegetarian,diabetic,no peanut,low cholesterol,Mediterranean
+=======
 Cafe Sunflower Buckhead.txt	vegan
+<<<<<<< HEAD
 Raja.txt	vegan,Indian,vegetarian
 The General Muir.txt	peanut-free,Chinese
+=======
+Raja.txt	gluten-free,Indian,vegetarian
+The General Muir.txt	peanut-free,Chinese
+>>>>>>> c88e1c6bf3c17d572eb33b0ea5c1395d5e813c5f
+>>>>>>> 823fdbba444b1b7df5f77eda22c04210adc2c9fe
