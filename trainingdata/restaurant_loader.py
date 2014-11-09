@@ -22,10 +22,11 @@ def get_restaurants():
 
             category_indices = []
             for category in categories:
+                print(category)
                 category_indices.append(get_category_index(category))
 
             categories = category_indices
-            #print(categories)
+            print(categories)
             
             link = ''
             with open('C:/Users/IMSA Student/Desktop/findr/trainingdata/'+restaurant_file, 'r') as sub_file:
@@ -45,10 +46,10 @@ def get_category_index(category):
     with open(category_types_database, 'r') as filestream:
         category_index = 0
         lines = filestream.readlines()
-        for i in range(0, len(lines)-1):
+        for i in range(len(lines)):
             lines[i] = lines[i][:-1]
         #print(lines)
-        for index in range(0,len(lines)-1):
+        for index in range(len(lines)):
             if category == lines[index]:
                 category_index = index     
     return category_index
@@ -56,7 +57,8 @@ def get_category_index(category):
 def get_category_from_index(index):
     with open(category_types_database, 'r') as filestream:
         lines = filestream.readlines() 
-    return lines[index]
+        return lines[index].rstrip()
 
-restaurants = get_restaurants()
-
+#restaurants = get_restaurants()
+#index = get_category_index('Indian')
+#print(index)

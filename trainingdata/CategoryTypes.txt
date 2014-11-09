@@ -1,14 +1,10 @@
-vegetarian
-Chinese
+Vegetarian
+organic
 Italian
-Mexican
-Medeterranian
+Mediterranean
 African
 vegan
 Indian
-peanut-free
+no peanut
 diabetic
-organic
-low cholesterol
-egg-free
-gluten-free
+low cholesterol 

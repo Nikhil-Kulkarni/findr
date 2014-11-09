@@ -1,8 +1,6 @@
-Dinner
-
+﻿Dinner
 Cured Meats & Cheeses for Dinner
 one for 4.75 three for 14 five for 22
-
 Meats
 Prosciutto di Parma: aged ham
 Speck: smoked prosciutto
@@ -13,7 +11,6 @@ Mortadella: finely-ground pork and pistachio
 Soppresatta: spicy pork salami
 Lomo: house-cured pork loin with fatback
 Bresaola: house-cured eye-of-round
-
 Cheeses
 in descending order from mild to pungent
 Caña de Oveja: Spain; sheep milk; soft
@@ -25,7 +22,6 @@ Gouda: Netherlands; cow milk; hard
 Quadrello di bufala: Italy; buffalo milk; soft
 Sapore Del Piave: Italy; raw cow’s milk; firm
 Chimay: Belgium; cow milk; semi-soft
-
 Taste & Share
 Boquerones olive oil garlic parsley 7
 Fried Goat Cheese honey black pepper 7
@@ -33,52 +29,42 @@ Braised Beef-Stuffed Piquillo Peppers 7
 Pancetta-Wrapped Chorizo-Stuffed Dates chili-almond tomato sauce 10
 Lamb & Mortadella Meatballs pickled tzatziki raisins pistachio 12
 Smoked Scallop Rillette chive French country bread 13
-
 Appetizers
 Salt-Roasted Beets pistachio butter crème fraiche candied pisatchios 10
 Swordfish Spiedino braised green lentils sauce au poivre 15
 Mixed Lettuces shaved fennel celery pecorino tarragon-mustard vinaigrette 9
 Grilled Corn oyster mushrooms walnuts whipped goat cheese 13
 King Crab fennel local Georgia apple sea beans fennel pollen vinaigrette 16
-
 Wood-Fired Pizzas
 San Marzano Tomatoes housemade mozzarella basil 13
 Roasted Mushrooms braised leeks Taleggio truffle oil 16
 Proscuitto fontina arugula Grana Padano lemon oil 15
-
 Pastas
 Pappardelle braised pork peppadew peppers garlic 17
 Chitarra local arugula mascarpone black pepper pecorino 16
 Penne red royal shrimp cauliflower almond puree tarragon 20
 Lamb Cannelloni tomato pasada goat cheese bechamel preserved eggplant 18
-
 Mains
 Pork Flat Iron butternut squash caponata spiced pork sauce 23
 Flat Iron Steak roasted radish wild mushroom salsa verde 25
 Roasted Quail “Elcano” braised shelling beans pickled pepper preserved lemon frisee 29
 Pollock a la Plancha pepper jam saffron herb farroto 26
-
 Sides
 Roasted Acorn Squash taleggio pear pumpkin seed pesto 8
 Pommes Frites house-made mayonnaise 5
 Baby Spinach pancetta La Peral blue cheese egg white wine vinaigrette 7
 Roasted Brussels Sprouts hazelnuts coppa balsamic aioli 8
 Salt-Roasted New Potatoes sauce Gribeche soft boiled farm egg 8
-
 Desserts
 Peaches & Cream Chiffon Cake whipped creme fraiche saba 8
 Handmade European Pastries please ask for today’s selections 8
 Chocolate Cherry Bombe cherry mousse almond Florentine 8
 Classic Raised Doughnuts local huckleberry glaze 8
 Housemade Ice Cream & Sorbet please ask for today’s selections 6
-
 Gluten-Friendly Dinner
-
 Before you order please tell your server if you are allergic to gluten. Keep in mind that our dishes are prepared in kitchens that handle many other wheat products and as a result may come in contact with it. Therefore we are unable to guarantee that any menu item is 100% free of gluten.
-
 Gluten-Friendly Cured Meats & Cheeses for Dinner
 one for 4.75 three for 14 five for 22
-
 Meats
 Prosciutto di Parma: aged ham
 Speck: smoked prosciutto
@@ -89,7 +75,6 @@ Mortadella: finely-ground pork and pistachio
 Soppresatta: spicy pork salami
 Lomo: house-cured pork loin with fatback
 Bresaola: house-cured eye-of-round
-
 Cheeses
 in descending order from mild to pungent
 Caña de Oveja: Spain; sheep’s milk; soft
@@ -101,35 +86,29 @@ Quadrello di Bufala: Italy; buffalo’s milk; soft
 La Tur: Italy; cow’s goat’s and sheep’s milk; soft
 Sapore del Piave: Italy; raw cow’s milk; firm
 Chimay: Belgium; cow’s milk; semi-soft
-
 Gluten-Friendly Taste & Share
 Boquerones olive oil garlic parsley 7
 Pancetta-Wrapped Chorizo-Stuffed Dates chili-almond tomato sauce 10
 Marcona Almonds 6
 Mixed Olives 6
-
 Gluten-Friendly Appetizers
 Salt-Roasted Beets pistachio butter creme fraiche candied pistachios 10
 Mixed Lettuces shaved fennel celery pecorino tarragon-mustard vinaigrette 9
 Grilled Corn oyster mushrooms walnuts whipped goat cheese 13
 Swordfish Spiedino briased green lentils sauce au poivre 15
 King Crab fennel local Georgia apple sea beans fennel pollen vinaigrette 16
-
 Gluten-Friendly Mains
 Pork Flat Iron butternut squash caponata spiced pork sauce 23
 Flat Iron Steak roasted radish wild mushroom salsa verde 25
 Roasted Quail Elcano braised shelling beans pickled peppers preserved lemon frisee 29
 Pollock a la Plancha pepper jam saffron herb farrotto 26
-
 Gluten-Friendly Sides
 Roasted Acorn Squash taleggio pear pumpkin seed pesto 8
 Pommes Frites house-made mayonnaise 5
 Baby Spinach ppancetta La Peral blue cheese egg white wine vinaigrette 7
 Roasted Brussels Sprouts hazelnuts coppa balsamic aioli 8
 Salt-Roasted New Potato sauce Gribiche soft boiled farm egg 8
-
 Cocktails & Beers
-
 SIGNATURE COCKTAILS
 GIGI SAYS GIGI SAYS
 “OK OK I’m listening. Tell me again.” Alright it’s Hangar One Straight vodka fresh ginger and a squeeze of lime—served short on the rocks. 12
@@ -152,7 +131,6 @@ Alma Cocina’s Herradura Double Barrel Reposado– bottled exclusively for Fift
 RAIL PASS
 Irishman Special Reserve Cocchi Barolo Chinato and
 Pedro Ximenez Sherry. Grab your passport pack your bags and head east. 12
-
 ALES & SUCH
 Miller High Life Lager Wisconsin 4
 Abita Light Lager Louisiana 6
@@ -176,7 +154,6 @@ Monday Night “Drafty Kilt” Scottish Ale Georgia 6
 Unibroue “Maudite” Red Ale Canada 9
 Uinta Hop Nosh IPA Utah 6
 Left Hand “NITRO” Milk Stout Colorado 7
-
 BOURBON
 13th Colony Bourbon Georgia 10
 Angel’s Envy Bourbon Kentucky 10
@@ -187,7 +164,6 @@ Ridgemont Reserve “1792” Bourbon Kentucky 10
 Maker’s Mark Bourbon Kentucky 9
 Smooth Ambler “Old Scout Ten” West Virginia 12
 Woodford Reserve Bourbon Kentucky 10
-
 SCOTCH & IRISH
 Bruichladdich “Organic” Whisky Scotland 14
 Compass Box “Peat Monster” Whisky Scotland 10
@@ -200,7 +176,6 @@ Macallan 12-yr. Single Malt Scotland 10
 Paddy Whiskey Ireland 7
 Springbank 18-yr. Single Malt Scotland 24
 Talisker 10-yr. Single Malt Scotland 12
-
 WHISK(E)Y
 13th Colony Rye Whiskey Georgia 9
 George Dickel Rye Whisky Tennessee 7
@@ -210,17 +185,12 @@ Jack Daniel’s “No. 7” Whiskey Tennessee 7
 Lock Stock & Barrel 13-yr. Rye Whiskey Penn. 24
 Queen Jennie Sorghum Whiskey Wisconsin 9
 Wiser’s 10-yr. Rye Whisky Canada 7
-
 Looking for our adventurous wine list? Click here.
-
 THIS MENU IS SUBJECT TO CHANGE
-
 Wine
-
 WINE EXCLUSIVES
 Bastianich “Adriatico” Malvasia Istriana Momjan Croatia ‘10 14 / 28 / 42
 WillaKenzie Estate Pinot Meunier Willamette Valley Oregon 11’ 17 / 34 / 51
-
 BUBBLES
 Nino Franco Prosecco Veneto Italy NV 45
 Silver Cap Brut Blanc de Blancs France NV 34
@@ -233,7 +203,6 @@ Nicholas Feuillate Brut Reserve Champagne France NV 72
 Jacquart “Mosaïque” Brut Reims Champagne France NV 90
 Billecart-Salmon Brut Rosé Champagne France NV 78
 Ruinart Brut Rosé Reims Champagne France NV 140
-
 OLD WORLD-STYLE
 Whites
 Domaine de Menard Colombard-Sauvignon Blanc Cotes De Gascogne France ‘12 32
@@ -321,7 +290,6 @@ Arcadian “Sleepy Hollow Vineyard” Chardonnay Monterey CA ‘00 98
 Stags Leap Chardonnay Napa Valley California ‘12 56
 Shafer Chardonnay Napa Valley California ‘12 78
 Miner “Simpson Vineyard” Viognier California ‘11 51
-
 Reds
 The Pinot Project Pinot Noir California ‘12 36
 Stephen Vincent Pinot Noir California ‘12 40
@@ -344,7 +312,5 @@ Freemark Abbey Cabernet Sauvignon Napa Valley California ‘10 65
 Hawkes Cabernet Sauvignon Alexander Valley California ‘09 98
 Mettler Family Vineyards Cabernet Sauvignon Lodi California ‘10 52
 Vina Robles “Jardin Estate” Petite Sirah Paso Robles California ‘09 64
-
 Looking for cocktails and beer lists instead? Click here.
-
 WINE LIST SUBJECT TO CHANGE
