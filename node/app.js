@@ -2,6 +2,9 @@ var express = require('express');
 var app = express();
 var name = "asdf";
 var bodyParser = require('body-parser');
+var loc;
+var cuisine;
+var restrictions;
 
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/views/styles'));
@@ -12,10 +15,17 @@ app.get('/', function(req, res) {
 });
 
 app.post('/list', function(req, res) {
-	console.log(req.body.loc);
-	console.log(req.body.cuisine);
-	console.log(req.body.restrictions);
+	loc = req.body.loc;
+	cuisine = req.body.cuisine;
+	restrictions = req.body.restrictions;
+	console.log(loc);
+	console.log(cuisine);
+	console.log(restrictions);
 	res.render('list');
+})
+
+app.get('/list', function(req, res) {
+	res.send(loc, cuisine, restrictions);
 })
 
 /* TESTING CODE BELOW ------>  CODE ABOVE*/
