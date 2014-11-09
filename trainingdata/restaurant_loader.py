@@ -4,8 +4,8 @@ import io
 """
 We load the text files containing each restaurant's menu information
 """
-categories_path = 'C:/Users/IMSA Student/Desktop/findr/trainingdata/RestaurantCategories.txt'
-category_types_database = 'C:/Users/IMSA Student/Desktop/findr/trainingdata/CategoryTypes.txt'
+categories_path = 'C:/Users/Anirudh/Desktop/findr/trainingdata/RestaurantCategories.txt'
+category_types_database = 'C:/Users/Anirudh/Desktop/findr/trainingdata/CategoryTypes.txt'
 
 def get_restaurants():
 
