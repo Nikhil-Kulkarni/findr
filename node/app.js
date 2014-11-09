@@ -43,7 +43,8 @@ app.post('/list', function(req, res) {
 			throw err;
 		}
 		console.log('Results:  %j', results);
-		res.render('list',{name: results[0], link: results[1]});
+			res.render('list',{name: results[0], link: results[2],
+								name2: results[1], link2: results[3]});
 
 	});
 

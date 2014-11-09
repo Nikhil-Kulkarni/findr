@@ -94,13 +94,25 @@ def getInfo(location, cuisine, allergic_info):
     max_indices = []
     maxCount = 0
     max_index = 0
+    max_array_index = []
+    max_array_restaurant_names = []
+    max_array_restaurant_links = []
     for index in range(len(count_array)):
         frickingstupid = int(count_array[index])
         if (frickingstupid > maxCount):
             maxCount = frickingstupid
             max_index = index
 
-    return [restaurant_names[max_index],restaurant_links[max_index]]
+    for index in range(len(count_array)):
+        if count_array[index] == maxCount:
+            max_array_index.append(index)
+
+    for index in range(len(max_array_index)):
+        max_array_restaurant_names.append(restaurant_names[max_array_index[index]])
+        max_array_restaurant_links.append(restaurant_links[max_array_index[index]])
+    
+    #return [restaurant_names[max_index],restaurant_links[max_index]]
+    return [np.array(max_array_restaurant_names),np.array(max_array_restaurant_links)]
     #print(restaurant_names[max_index])
     #print(restaurant_links[max_index])
 
@@ -109,8 +121,12 @@ with open(r'C:\Users\IMSA Student\Desktop\findr\node\myOutput.txt', 'r') as inpu
         read_text[0] = read_text[0].replace('\n','')
         read_text[1] = read_text[1].replace('\n','')
         read_text[2] = read_text[2].replace('\n','')
-        print(getInfo(read_text[0], read_text[1], read_text[2])[0])
-        print(getInfo(read_text[0], read_text[1], read_text[2])[1])
+        #print(getInfo(read_text[0], read_text[1], read_text[2]))
+        result = getInfo(read_text[0], read_text[1], read_text[2])
+        for index in range(len(result[0])):
+            print(getInfo(read_text[0], read_text[1], read_text[2])[0][index])
+        for index in range(len(result)):
+            print(getInfo(read_text[0], read_text[1], read_text[2])[1][index])
     
 #print(getInfo('Atlanta',"Indian", "Vegetarian"))
 #print(recommended_restaurants)
