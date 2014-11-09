@@ -3,7 +3,9 @@ var app = express();
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var PythonShell = require('python-shell');
+var pyshell = new PythonShell('ClassifyRestaurants_Multiclassification.py');
 var s = require('string');
+var fs = require('fs');
 var loc;
 var cuisine;
 var restrictions;
@@ -17,32 +19,36 @@ app.get('/', function(req, res) {
 });
 
 app.post('/list', function(req, res) {
+
 	loc = req.body.loc;
 	cuisine = req.body.cuisine;
 	restrictions = req.body.restrictions;
-	//cuisine = req.body.cuisine;
-	//restrictions = req.body.restrictions;
 	console.log(loc);
 	console.log(cuisine);
 	console.log(restrictions);
+	// var options = {
+ //  		mode: 'text',
+ //  		scriptPath: 'C:/Users/IMSA Student/Desktop/findr/node/python',
+ //  		args: [loc, cuisine, restrictions]
+	// };
+	var result;
+	var wstream = fs.createWriteStream('myOutput.txt');
+	wstream.write(loc + '\n');
+	wstream.write(cuisine + '\n');
+	wstream.write(restrictions + '\n');
+	wstream.end();
 
-	var options = {
-		args: [loc, cuisine, restrictions]
-	};
-
-	PythonShell.run('ClassifyRestaurants_Multiclassification.py', options, function(err, results) {
+	PythonShell.run('ClassifyRestaurants_Multiclassification.py', function(err, results) {
 		if (err) {
 			throw err;
 		}
-		console.log('results: %j', results);
+		console.log('Results:  %j', results);
+		res.render('list',{name: results[0], link: results[1]});
+
 	});
 
-	res.render('list');
 });
 
-app.get('/list', function(req, res) {
-	res.send(loc, cuisine, restrictions);
-});
 
 /* TESTING CODE BELOW ------>  CODE ABOVE*/
 app.get('/who/:name?/:title?', function(req, res) {
