@@ -17,10 +17,10 @@
   </head>
   <body>
     <img src="font.png" class='custom'>
-    <form class="form-wrapper cf" action="http://localhost:5000/list" method="post"> <!--add method and action -->
-      <input type="text" name = "loc" placeholder="Your Location..." required>
-      <input type="text" name = "cuisine" placeholder="Cuisine-Type..." required>
-      <input type="text" name = "restrictions" placeholder="Dietary-Restrictions..." required>
+    <form class="form-wrapper cf" action="/list" method="post"> <!--add method and action -->
+      <input type="text" name = "loc" id="loc" placeholder="Your Location..." required>
+      <input type="text" name = "cuisine" id="cuisine" placeholder="Cuisine-Type..." required>
+      <input type="text" name = "restrictions" id="restrictions" placeholder="Dietary-Restrictions..." required>
       <button type="submit">Submit</button>
     </form>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
