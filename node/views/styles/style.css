@@ -1,42 +1,42 @@
 body {
-	background-image: url('background.png');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: 100% 100%
+  background-image: url('background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%
 }
 
-/*Fixed background bullshit*/
+/*Fixed background*/
 .panel-transparent {
-	background: none;
+  background: none;
 }
 
 .panel-transparent .panel-heading {
-	background: rgba(122,130,136,0.2)!important;
+  background: rgba(122,130,136,0.2)!important;
 }
 
 .panel-transparent .panel-body {
-	background: rgba(46,51,56,0.2)!important;
+  background: rgba(46,51,56,0.2)!important;
 }
 
 .row-transparent {
-	background: none;
+  background: none;
 }
 
 .col-md-4-transparent {
-	background: rgba(46,51,56,0.2)!important;
+  background: rgba(46,51,56,0.2)!important;
 }
 
 .white-color {
-	color: white;
-	font-style: Verdana;
+  color: white;
+  font-style: Verdana;
 }
 
 .black-color {
-	color:black;
+  color:black;
 }
 
 .border {
-	outline: 1px solid black
+  outline: 1px solid black
 }
 
 /**/
@@ -54,26 +54,31 @@ body {
 } 
 /* Form wrapper styling */
 .form-wrapper {
-    width: 450px;
+    width: 970px;
     padding: 15px;
-    margin: 150px auto 50px auto;
+    margin: 80px auto 50px auto;
     background: #444;
     background: rgba(0,0,0,.2);
     border-radius: 10px;
     box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
 }
  
-/* Form text input bullshit*/
+/* Form text input*/
  
 .form-wrapper input {
-    width: 310px;
+    width: 270px;
     height: 40px;
     padding: 10px 5px;
     float: left;    
     font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
     border: 0;
     background: #eee;
-    border-radius: 3px 0 0 3px;      
+    border-radius: 3px 0 0 3px;   
+    margin-right: 5px;   
+}
+
+.diet {
+  margin-right: 0px;
 }
  
 .form-wrapper input:focus {
@@ -151,3 +156,11 @@ body {
     border: 0;
     padding: 0;
 } 
+
+.custom {
+  font-size: 48px;
+  text-align: center;
+  margin-top: 200px;
+  margin-left: 28%;
+  background-image: url('font.png');
+}
