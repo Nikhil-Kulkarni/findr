@@ -13,7 +13,7 @@ def get_restaurants():
     with open(categories_path, 'r') as filestream:
         lines = filestream.readlines()
         for eachline in lines:
-            line = eachline.split("\t")
+            line = eachline.split()
             restaurant_file = line[0]
             restaurant_name = restaurant_file[:-4]
             #print(restaurant_name)
