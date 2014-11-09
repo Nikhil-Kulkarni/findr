@@ -4,8 +4,8 @@ import io
 """
 We load the text files containing each restaurant's menu information
 """
-categories_path = 'C:/Users/Anirudh/Desktop/findr/trainingdata/RestaurantCategories.txt'
-category_types_database = 'C:/Users/Anirudh/Desktop/findr/trainingdata/CategoryTypes.txt'
+categories_path = 'RestaurantCategories.txt'
+category_types_database = 'CategoryTypes.txt'
 
 def get_restaurants():
 
@@ -22,20 +22,20 @@ def get_restaurants():
 
             category_indices = []
             for category in categories:
-                print(category)
+                #print(category)
                 category_indices.append(get_category_index(category))
 
             categories = category_indices
-            print(categories)
+            #print(categories)
             
             link = ''
-            with open('C:/Users/IMSA Student/Desktop/findr/trainingdata/'+restaurant_file, 'r') as sub_file:
+            with open(restaurant_file, 'r') as sub_file:
                 menu_file_lines = sub_file.readlines()
                 link = menu_file_lines[0]
                 #print(link)
                 
                 
-            with open('C:/Users/IMSA Student/Desktop/findr/trainingdata/'+restaurant_file, 'r') as sub_file2:
+            with open(restaurant_file, 'r') as sub_file2:
                 menu_text = sub_file2.read().replace('\n',' ')
                 
                 #print(menu_text)

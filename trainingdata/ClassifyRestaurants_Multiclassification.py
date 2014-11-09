@@ -24,10 +24,12 @@ restaurant_categories2 = MultiLabelBinarizer().fit_transform(restaurant_categori
 
 text_clf = text_clf.fit(restaurant_menus, restaurant_categories2)
 
+'''
 for index in range(len(restaurant_names)):
     print(restaurant_names[index])
     print(restaurant_categories[index])
     print(restaurant_categories2[index])
+'''
     
 
 import numpy as np
@@ -53,7 +55,7 @@ recommended_restaurants_links = []
 
 #THIS IS THE FUNCTION THAT YOU NEED TO USE
 def format (cui):
-    return np.array((cui.split(", ")))
+    return (cui.split(", "))
 
 cuisineArr = []
 allergic_infoArr = []
@@ -64,17 +66,17 @@ def getInfo(location, cuisine, allergic_info):
     restaurant_names = [restaurant[0] for restaurant in restaurant_array]
     restaurant_menus = [restaurant[1] for restaurant in restaurant_array]
     restaurant_categories = [restaurant[2] for restaurant in restaurant_array]
-    restaurant_links = [restaurant[3] for restaurant in restaurant_array]
+    restaurant_links = [restaurant[3][3:].rstrip() for restaurant in restaurant_array]
     
     count_array = []
     category_list = cuisineArr + allergic_infoArr
     
     for category in restaurant_categories:
-        print(category)
+        #print(category)
         for index in range(len(category)):
             category_name = get_category_from_index(category[index])
             category[index] = category_name
-        print(category)
+        #print(category)
 
     for i in range(len(restaurant_categories)):
         count = 0
@@ -98,7 +100,7 @@ def getInfo(location, cuisine, allergic_info):
     #print(restaurant_links[max_index])
 
 
-print(getInfo('Atlanta',"Indian, Asian", "no peanut, low cholesterol"))
+print(getInfo('Atlanta',"Italian, Asian", "vegetarian, low cholesterol"))
 #print(recommended_restaurants)
 #print(recommended_restaurants_links)
 
