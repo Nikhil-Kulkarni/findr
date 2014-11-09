@@ -50,7 +50,14 @@ recommended_restaurants_links = []
 #category_list = ['Vegetarian', 'organic']
 
 #THIS IS THE FUNCTION THAT YOU NEED TO USE
+def format (cui):
+    return np.array((cui.split(", ")))
+
+cuisineArr = []
+allergic_infoArr = []
 def getInfo(location, cuisine, allergic_info):
+    cuisineArr  = format(cuisine)
+    allergic_infoArr = format(allergic_info)
     restaurant_array = get_restaurants()
     restaurant_names = [restaurant[0] for restaurant in restaurant_array]
     restaurant_menus = [restaurant[1] for restaurant in restaurant_array]
@@ -58,7 +65,7 @@ def getInfo(location, cuisine, allergic_info):
     restaurant_links = [restaurant[3] for restaurant in restaurant_array]
     
     count_array = []
-    category_list = cuisine + allergic_info
+    category_list = cuisineArr + allergic_infoArr
     
     for category in restaurant_categories:
         print(category)
@@ -89,7 +96,7 @@ def getInfo(location, cuisine, allergic_info):
     #print(restaurant_links[max_index])
 
 
-print(getInfo('Atlanta',['Vegetarian'], ['no peanut', 'low cholesterol']))
+print(getInfo('Atlanta',"Indian, Asian", "no peanut, low cholesterol"))
 #print(recommended_restaurants)
 #print(recommended_restaurants_links)
 
